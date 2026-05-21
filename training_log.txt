@@ -1,0 +1,552 @@
+
+========================================================================
+SILICON-23: BINARY DOG BARK TRAINING
+========================================================================
+Loading not_dog_bark: 5200 samples
+Loading dog_bark: 4400 samples
+Dataset size: 9600 | positives(dog): 4400 | negatives: 5200
+Total params: 20017
+Class weights: {0: 1.0, 1: 1.6}
+Epoch 1/250
+
+Epoch 1: val_auc_pr improved from None to 0.77815, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 115ms/step - accuracy: 0.5251 - auc_pr: 0.6021 - loss: 0.8421 - precision: 0.4894 - recall: 0.8348 - val_accuracy: 0.6083 - val_auc_pr: 0.7781 - val_loss: 0.6326 - val_precision: 0.5469 - val_recall: 0.8485 - learning_rate: 3.0000e-04
+Epoch 2/250
+
+Epoch 2: val_auc_pr improved from 0.77815 to 0.86416, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 25s - 98ms/step - accuracy: 0.7048 - auc_pr: 0.7852 - loss: 0.6903 - precision: 0.6481 - recall: 0.7786 - val_accuracy: 0.7361 - val_auc_pr: 0.8642 - val_loss: 0.5085 - val_precision: 0.6655 - val_recall: 0.8530 - learning_rate: 3.0000e-04
+Epoch 3/250
+
+Epoch 3: val_auc_pr improved from 0.86416 to 0.88657, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 24s - 95ms/step - accuracy: 0.7684 - auc_pr: 0.8321 - loss: 0.5958 - precision: 0.7166 - recall: 0.8182 - val_accuracy: 0.8139 - val_auc_pr: 0.8866 - val_loss: 0.4224 - val_precision: 0.7997 - val_recall: 0.7924 - learning_rate: 3.0000e-04
+Epoch 4/250
+
+Epoch 4: val_auc_pr improved from 0.88657 to 0.90509, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 25s - 98ms/step - accuracy: 0.7998 - auc_pr: 0.8655 - loss: 0.5365 - precision: 0.7522 - recall: 0.8398 - val_accuracy: 0.8292 - val_auc_pr: 0.9051 - val_loss: 0.3796 - val_precision: 0.8245 - val_recall: 0.7970 - learning_rate: 3.0000e-04
+Epoch 5/250
+
+Epoch 5: val_auc_pr improved from 0.90509 to 0.91890, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 24s - 95ms/step - accuracy: 0.8050 - auc_pr: 0.8767 - loss: 0.5146 - precision: 0.7561 - recall: 0.8481 - val_accuracy: 0.7951 - val_auc_pr: 0.9189 - val_loss: 0.4314 - val_precision: 0.7072 - val_recall: 0.9439 - learning_rate: 3.0000e-04
+Epoch 6/250
+
+Epoch 6: val_auc_pr improved from 0.91890 to 0.92247, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 22s - 86ms/step - accuracy: 0.8189 - auc_pr: 0.8901 - loss: 0.4869 - precision: 0.7716 - recall: 0.8591 - val_accuracy: 0.8417 - val_auc_pr: 0.9225 - val_loss: 0.3467 - val_precision: 0.8303 - val_recall: 0.8227 - learning_rate: 3.0000e-04
+Epoch 7/250
+
+Epoch 7: val_auc_pr improved from 0.92247 to 0.92827, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 22s - 86ms/step - accuracy: 0.8288 - auc_pr: 0.9008 - loss: 0.4590 - precision: 0.7778 - recall: 0.8770 - val_accuracy: 0.8451 - val_auc_pr: 0.9283 - val_loss: 0.3335 - val_precision: 0.8171 - val_recall: 0.8530 - learning_rate: 3.0000e-04
+Epoch 8/250
+
+Epoch 8: val_auc_pr improved from 0.92827 to 0.93548, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 21s - 83ms/step - accuracy: 0.8375 - auc_pr: 0.9087 - loss: 0.4425 - precision: 0.7882 - recall: 0.8826 - val_accuracy: 0.8451 - val_auc_pr: 0.9355 - val_loss: 0.3297 - val_precision: 0.7933 - val_recall: 0.8955 - learning_rate: 3.0000e-04
+Epoch 9/250
+
+Epoch 9: val_auc_pr improved from 0.93548 to 0.93934, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 21s - 82ms/step - accuracy: 0.8439 - auc_pr: 0.9139 - loss: 0.4304 - precision: 0.7951 - recall: 0.8882 - val_accuracy: 0.8569 - val_auc_pr: 0.9393 - val_loss: 0.3157 - val_precision: 0.8179 - val_recall: 0.8848 - learning_rate: 3.0000e-04
+Epoch 10/250
+
+Epoch 10: val_auc_pr improved from 0.93934 to 0.94094, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 21s - 83ms/step - accuracy: 0.8461 - auc_pr: 0.9196 - loss: 0.4191 - precision: 0.7971 - recall: 0.8909 - val_accuracy: 0.8618 - val_auc_pr: 0.9409 - val_loss: 0.3012 - val_precision: 0.8466 - val_recall: 0.8530 - learning_rate: 3.0000e-04
+Epoch 11/250
+
+Epoch 11: val_auc_pr improved from 0.94094 to 0.94483, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 21s - 84ms/step - accuracy: 0.8516 - auc_pr: 0.9183 - loss: 0.4177 - precision: 0.8046 - recall: 0.8930 - val_accuracy: 0.8389 - val_auc_pr: 0.9448 - val_loss: 0.3496 - val_precision: 0.7572 - val_recall: 0.9545 - learning_rate: 3.0000e-04
+Epoch 12/250
+
+Epoch 12: val_auc_pr improved from 0.94483 to 0.94653, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 21s - 82ms/step - accuracy: 0.8504 - auc_pr: 0.9247 - loss: 0.4091 - precision: 0.8040 - recall: 0.8906 - val_accuracy: 0.8458 - val_auc_pr: 0.9465 - val_loss: 0.3317 - val_precision: 0.7697 - val_recall: 0.9470 - learning_rate: 3.0000e-04
+Epoch 13/250
+
+Epoch 13: val_auc_pr improved from 0.94653 to 0.94973, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 25s - 97ms/step - accuracy: 0.8562 - auc_pr: 0.9281 - loss: 0.3980 - precision: 0.8092 - recall: 0.8981 - val_accuracy: 0.8757 - val_auc_pr: 0.9497 - val_loss: 0.2832 - val_precision: 0.8911 - val_recall: 0.8303 - learning_rate: 3.0000e-04
+Epoch 14/250
+
+Epoch 14: val_auc_pr improved from 0.94973 to 0.95255, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 115ms/step - accuracy: 0.8608 - auc_pr: 0.9292 - loss: 0.3934 - precision: 0.8171 - recall: 0.8971 - val_accuracy: 0.8771 - val_auc_pr: 0.9526 - val_loss: 0.2842 - val_precision: 0.8331 - val_recall: 0.9152 - learning_rate: 3.0000e-04
+Epoch 15/250
+
+Epoch 15: val_auc_pr improved from 0.95255 to 0.95479, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 108ms/step - accuracy: 0.8696 - auc_pr: 0.9367 - loss: 0.3757 - precision: 0.8251 - recall: 0.9080 - val_accuracy: 0.8882 - val_auc_pr: 0.9548 - val_loss: 0.2676 - val_precision: 0.8786 - val_recall: 0.8773 - learning_rate: 3.0000e-04
+Epoch 16/250
+
+Epoch 16: val_auc_pr improved from 0.95479 to 0.95564, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 22s - 86ms/step - accuracy: 0.8656 - auc_pr: 0.9349 - loss: 0.3787 - precision: 0.8235 - recall: 0.8995 - val_accuracy: 0.8833 - val_auc_pr: 0.9556 - val_loss: 0.2729 - val_precision: 0.8534 - val_recall: 0.9000 - learning_rate: 3.0000e-04
+Epoch 17/250
+
+Epoch 17: val_auc_pr improved from 0.95564 to 0.95892, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 26s - 101ms/step - accuracy: 0.8729 - auc_pr: 0.9392 - loss: 0.3659 - precision: 0.8315 - recall: 0.9064 - val_accuracy: 0.8694 - val_auc_pr: 0.9589 - val_loss: 0.3027 - val_precision: 0.8003 - val_recall: 0.9530 - learning_rate: 3.0000e-04
+Epoch 18/250
+
+Epoch 18: val_auc_pr improved from 0.95892 to 0.96088, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 26s - 101ms/step - accuracy: 0.8756 - auc_pr: 0.9409 - loss: 0.3621 - precision: 0.8352 - recall: 0.9078 - val_accuracy: 0.8847 - val_auc_pr: 0.9609 - val_loss: 0.2543 - val_precision: 0.9117 - val_recall: 0.8288 - learning_rate: 3.0000e-04
+Epoch 19/250
+
+Epoch 19: val_auc_pr improved from 0.96088 to 0.96146, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 25s - 97ms/step - accuracy: 0.8711 - auc_pr: 0.9425 - loss: 0.3608 - precision: 0.8310 - recall: 0.9021 - val_accuracy: 0.8944 - val_auc_pr: 0.9615 - val_loss: 0.2492 - val_precision: 0.8713 - val_recall: 0.9030 - learning_rate: 3.0000e-04
+Epoch 20/250
+
+Epoch 20: val_auc_pr improved from 0.96146 to 0.96233, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 23s - 88ms/step - accuracy: 0.8835 - auc_pr: 0.9497 - loss: 0.3389 - precision: 0.8456 - recall: 0.9123 - val_accuracy: 0.8917 - val_auc_pr: 0.9623 - val_loss: 0.2491 - val_precision: 0.9228 - val_recall: 0.8333 - learning_rate: 3.0000e-04
+Epoch 21/250
+
+Epoch 21: val_auc_pr improved from 0.96233 to 0.96576, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 26s - 103ms/step - accuracy: 0.8854 - auc_pr: 0.9498 - loss: 0.3376 - precision: 0.8476 - recall: 0.9144 - val_accuracy: 0.8986 - val_auc_pr: 0.9658 - val_loss: 0.2367 - val_precision: 0.8703 - val_recall: 0.9152 - learning_rate: 3.0000e-04
+Epoch 22/250
+
+Epoch 22: val_auc_pr improved from 0.96576 to 0.96630, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.8890 - auc_pr: 0.9511 - loss: 0.3332 - precision: 0.8514 - recall: 0.9179 - val_accuracy: 0.8951 - val_auc_pr: 0.9663 - val_loss: 0.2445 - val_precision: 0.8482 - val_recall: 0.9394 - learning_rate: 3.0000e-04
+Epoch 23/250
+
+Epoch 23: val_auc_pr improved from 0.96630 to 0.96744, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 113ms/step - accuracy: 0.8841 - auc_pr: 0.9507 - loss: 0.3344 - precision: 0.8453 - recall: 0.9144 - val_accuracy: 0.9021 - val_auc_pr: 0.9674 - val_loss: 0.2284 - val_precision: 0.8766 - val_recall: 0.9152 - learning_rate: 3.0000e-04
+Epoch 24/250
+
+Epoch 24: val_auc_pr improved from 0.96744 to 0.96852, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 112ms/step - accuracy: 0.8923 - auc_pr: 0.9555 - loss: 0.3185 - precision: 0.8570 - recall: 0.9182 - val_accuracy: 0.8972 - val_auc_pr: 0.9685 - val_loss: 0.2279 - val_precision: 0.8657 - val_recall: 0.9182 - learning_rate: 3.0000e-04
+Epoch 25/250
+
+Epoch 25: val_auc_pr improved from 0.96852 to 0.97003, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 109ms/step - accuracy: 0.8860 - auc_pr: 0.9526 - loss: 0.3284 - precision: 0.8495 - recall: 0.9131 - val_accuracy: 0.8958 - val_auc_pr: 0.9700 - val_loss: 0.2269 - val_precision: 0.8561 - val_recall: 0.9288 - learning_rate: 3.0000e-04
+Epoch 26/250
+
+Epoch 26: val_auc_pr did not improve from 0.97003
+255/255 - 30s - 116ms/step - accuracy: 0.8935 - auc_pr: 0.9565 - loss: 0.3120 - precision: 0.8582 - recall: 0.9195 - val_accuracy: 0.9021 - val_auc_pr: 0.9696 - val_loss: 0.2195 - val_precision: 0.8844 - val_recall: 0.9045 - learning_rate: 3.0000e-04
+Epoch 27/250
+
+Epoch 27: val_auc_pr improved from 0.97003 to 0.97171, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 30s - 116ms/step - accuracy: 0.8903 - auc_pr: 0.9554 - loss: 0.3189 - precision: 0.8520 - recall: 0.9206 - val_accuracy: 0.8972 - val_auc_pr: 0.9717 - val_loss: 0.2314 - val_precision: 0.8432 - val_recall: 0.9530 - learning_rate: 3.0000e-04
+Epoch 28/250
+
+Epoch 28: val_auc_pr improved from 0.97171 to 0.97240, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 32s - 125ms/step - accuracy: 0.8944 - auc_pr: 0.9579 - loss: 0.3112 - precision: 0.8590 - recall: 0.9206 - val_accuracy: 0.8917 - val_auc_pr: 0.9724 - val_loss: 0.2442 - val_precision: 0.8333 - val_recall: 0.9545 - learning_rate: 3.0000e-04
+Epoch 29/250
+
+Epoch 29: val_auc_pr improved from 0.97240 to 0.97377, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 30s - 116ms/step - accuracy: 0.8974 - auc_pr: 0.9600 - loss: 0.3043 - precision: 0.8631 - recall: 0.9225 - val_accuracy: 0.9160 - val_auc_pr: 0.9738 - val_loss: 0.2090 - val_precision: 0.9258 - val_recall: 0.8879 - learning_rate: 3.0000e-04
+Epoch 30/250
+
+Epoch 30: val_auc_pr improved from 0.97377 to 0.97462, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 30s - 117ms/step - accuracy: 0.9015 - auc_pr: 0.9641 - loss: 0.2892 - precision: 0.8703 - recall: 0.9225 - val_accuracy: 0.8965 - val_auc_pr: 0.9746 - val_loss: 0.2248 - val_precision: 0.8402 - val_recall: 0.9561 - learning_rate: 3.0000e-04
+Epoch 31/250
+
+Epoch 31: val_auc_pr improved from 0.97462 to 0.97576, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 30s - 118ms/step - accuracy: 0.9020 - auc_pr: 0.9639 - loss: 0.2877 - precision: 0.8703 - recall: 0.9238 - val_accuracy: 0.9160 - val_auc_pr: 0.9758 - val_loss: 0.2033 - val_precision: 0.8911 - val_recall: 0.9303 - learning_rate: 3.0000e-04
+Epoch 32/250
+
+Epoch 32: val_auc_pr did not improve from 0.97576
+255/255 - 27s - 105ms/step - accuracy: 0.9032 - auc_pr: 0.9653 - loss: 0.2804 - precision: 0.8684 - recall: 0.9297 - val_accuracy: 0.9181 - val_auc_pr: 0.9746 - val_loss: 0.2064 - val_precision: 0.9457 - val_recall: 0.8712 - learning_rate: 3.0000e-04
+Epoch 33/250
+
+Epoch 33: val_auc_pr improved from 0.97576 to 0.97718, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 26s - 102ms/step - accuracy: 0.9062 - auc_pr: 0.9659 - loss: 0.2824 - precision: 0.8748 - recall: 0.9283 - val_accuracy: 0.9215 - val_auc_pr: 0.9772 - val_loss: 0.1933 - val_precision: 0.9040 - val_recall: 0.9273 - learning_rate: 3.0000e-04
+Epoch 34/250
+
+Epoch 34: val_auc_pr improved from 0.97718 to 0.97816, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 109ms/step - accuracy: 0.9078 - auc_pr: 0.9657 - loss: 0.2797 - precision: 0.8771 - recall: 0.9291 - val_accuracy: 0.9007 - val_auc_pr: 0.9782 - val_loss: 0.2064 - val_precision: 0.8546 - val_recall: 0.9439 - learning_rate: 3.0000e-04
+Epoch 35/250
+
+Epoch 35: val_auc_pr improved from 0.97816 to 0.97851, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 112ms/step - accuracy: 0.9098 - auc_pr: 0.9682 - loss: 0.2690 - precision: 0.8781 - recall: 0.9326 - val_accuracy: 0.9208 - val_auc_pr: 0.9785 - val_loss: 0.1854 - val_precision: 0.9187 - val_recall: 0.9076 - learning_rate: 3.0000e-04
+Epoch 36/250
+
+Epoch 36: val_auc_pr improved from 0.97851 to 0.98070, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 107ms/step - accuracy: 0.9130 - auc_pr: 0.9693 - loss: 0.2614 - precision: 0.8812 - recall: 0.9364 - val_accuracy: 0.9229 - val_auc_pr: 0.9807 - val_loss: 0.1881 - val_precision: 0.9463 - val_recall: 0.8818 - learning_rate: 3.0000e-04
+Epoch 37/250
+
+Epoch 37: val_auc_pr did not improve from 0.98070
+255/255 - 30s - 117ms/step - accuracy: 0.9125 - auc_pr: 0.9696 - loss: 0.2618 - precision: 0.8832 - recall: 0.9324 - val_accuracy: 0.8896 - val_auc_pr: 0.9765 - val_loss: 0.2342 - val_precision: 0.8300 - val_recall: 0.9545 - learning_rate: 3.0000e-04
+Epoch 38/250
+
+Epoch 38: val_auc_pr improved from 0.98070 to 0.98171, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 31s - 122ms/step - accuracy: 0.9143 - auc_pr: 0.9714 - loss: 0.2576 - precision: 0.8860 - recall: 0.9332 - val_accuracy: 0.9104 - val_auc_pr: 0.9817 - val_loss: 0.1934 - val_precision: 0.8652 - val_recall: 0.9530 - learning_rate: 3.0000e-04
+Epoch 39/250
+
+Epoch 39: val_auc_pr did not improve from 0.98171
+255/255 - 30s - 119ms/step - accuracy: 0.9125 - auc_pr: 0.9717 - loss: 0.2565 - precision: 0.8815 - recall: 0.9348 - val_accuracy: 0.9208 - val_auc_pr: 0.9816 - val_loss: 0.1819 - val_precision: 0.8900 - val_recall: 0.9439 - learning_rate: 3.0000e-04
+Epoch 40/250
+
+Epoch 40: val_auc_pr did not improve from 0.98171
+255/255 - 34s - 134ms/step - accuracy: 0.9175 - auc_pr: 0.9744 - loss: 0.2441 - precision: 0.8895 - recall: 0.9364 - val_accuracy: 0.9264 - val_auc_pr: 0.9793 - val_loss: 0.1832 - val_precision: 0.9497 - val_recall: 0.8864 - learning_rate: 3.0000e-04
+Epoch 41/250
+
+Epoch 41: val_auc_pr improved from 0.98171 to 0.98362, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 115ms/step - accuracy: 0.9190 - auc_pr: 0.9742 - loss: 0.2426 - precision: 0.8914 - recall: 0.9374 - val_accuracy: 0.9319 - val_auc_pr: 0.9836 - val_loss: 0.1659 - val_precision: 0.9404 - val_recall: 0.9091 - learning_rate: 3.0000e-04
+Epoch 42/250
+
+Epoch 42: val_auc_pr improved from 0.98362 to 0.98372, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 106ms/step - accuracy: 0.9176 - auc_pr: 0.9753 - loss: 0.2389 - precision: 0.8905 - recall: 0.9353 - val_accuracy: 0.9306 - val_auc_pr: 0.9837 - val_loss: 0.1720 - val_precision: 0.9023 - val_recall: 0.9515 - learning_rate: 3.0000e-04
+Epoch 43/250
+
+Epoch 43: val_auc_pr improved from 0.98372 to 0.98426, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9186 - auc_pr: 0.9737 - loss: 0.2433 - precision: 0.8908 - recall: 0.9374 - val_accuracy: 0.9285 - val_auc_pr: 0.9843 - val_loss: 0.1610 - val_precision: 0.9090 - val_recall: 0.9379 - learning_rate: 3.0000e-04
+Epoch 44/250
+
+Epoch 44: val_auc_pr did not improve from 0.98426
+255/255 - 28s - 109ms/step - accuracy: 0.9197 - auc_pr: 0.9757 - loss: 0.2363 - precision: 0.8918 - recall: 0.9388 - val_accuracy: 0.9139 - val_auc_pr: 0.9836 - val_loss: 0.1950 - val_precision: 0.8661 - val_recall: 0.9606 - learning_rate: 3.0000e-04
+Epoch 45/250
+
+Epoch 45: val_auc_pr improved from 0.98426 to 0.98507, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9178 - auc_pr: 0.9747 - loss: 0.2408 - precision: 0.8902 - recall: 0.9361 - val_accuracy: 0.9236 - val_auc_pr: 0.9851 - val_loss: 0.1656 - val_precision: 0.8940 - val_recall: 0.9455 - learning_rate: 3.0000e-04
+Epoch 46/250
+
+Epoch 46: val_auc_pr improved from 0.98507 to 0.98625, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 104ms/step - accuracy: 0.9246 - auc_pr: 0.9785 - loss: 0.2221 - precision: 0.8977 - recall: 0.9430 - val_accuracy: 0.9326 - val_auc_pr: 0.9862 - val_loss: 0.1515 - val_precision: 0.9220 - val_recall: 0.9318 - learning_rate: 3.0000e-04
+Epoch 47/250
+
+Epoch 47: val_auc_pr improved from 0.98625 to 0.98637, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9266 - auc_pr: 0.9788 - loss: 0.2192 - precision: 0.9009 - recall: 0.9436 - val_accuracy: 0.9326 - val_auc_pr: 0.9864 - val_loss: 0.1527 - val_precision: 0.9419 - val_recall: 0.9091 - learning_rate: 3.0000e-04
+Epoch 48/250
+
+Epoch 48: val_auc_pr improved from 0.98637 to 0.98663, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9221 - auc_pr: 0.9767 - loss: 0.2307 - precision: 0.8973 - recall: 0.9372 - val_accuracy: 0.9111 - val_auc_pr: 0.9866 - val_loss: 0.1939 - val_precision: 0.8537 - val_recall: 0.9727 - learning_rate: 3.0000e-04
+Epoch 49/250
+
+Epoch 49: val_auc_pr improved from 0.98663 to 0.98760, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9246 - auc_pr: 0.9780 - loss: 0.2167 - precision: 0.8961 - recall: 0.9452 - val_accuracy: 0.9354 - val_auc_pr: 0.9876 - val_loss: 0.1446 - val_precision: 0.9315 - val_recall: 0.9273 - learning_rate: 3.0000e-04
+Epoch 50/250
+
+Epoch 50: val_auc_pr did not improve from 0.98760
+255/255 - 27s - 105ms/step - accuracy: 0.9297 - auc_pr: 0.9796 - loss: 0.2141 - precision: 0.9040 - recall: 0.9471 - val_accuracy: 0.9347 - val_auc_pr: 0.9859 - val_loss: 0.1507 - val_precision: 0.9450 - val_recall: 0.9106 - learning_rate: 3.0000e-04
+Epoch 51/250
+
+Epoch 51: val_auc_pr did not improve from 0.98760
+255/255 - 27s - 106ms/step - accuracy: 0.9297 - auc_pr: 0.9803 - loss: 0.2087 - precision: 0.9057 - recall: 0.9449 - val_accuracy: 0.9333 - val_auc_pr: 0.9875 - val_loss: 0.1433 - val_precision: 0.9286 - val_recall: 0.9258 - learning_rate: 3.0000e-04
+Epoch 52/250
+
+Epoch 52: val_auc_pr improved from 0.98760 to 0.98761, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 104ms/step - accuracy: 0.9255 - auc_pr: 0.9772 - loss: 0.2221 - precision: 0.8987 - recall: 0.9439 - val_accuracy: 0.9306 - val_auc_pr: 0.9876 - val_loss: 0.1429 - val_precision: 0.9154 - val_recall: 0.9348 - learning_rate: 3.0000e-04
+Epoch 53/250
+
+Epoch 53: val_auc_pr did not improve from 0.98761
+255/255 - 27s - 104ms/step - accuracy: 0.9306 - auc_pr: 0.9805 - loss: 0.2029 - precision: 0.9040 - recall: 0.9495 - val_accuracy: 0.9368 - val_auc_pr: 0.9873 - val_loss: 0.1417 - val_precision: 0.9304 - val_recall: 0.9318 - learning_rate: 3.0000e-04
+Epoch 54/250
+
+Epoch 54: val_auc_pr improved from 0.98761 to 0.98944, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9330 - auc_pr: 0.9822 - loss: 0.1979 - precision: 0.9099 - recall: 0.9476 - val_accuracy: 0.9417 - val_auc_pr: 0.9894 - val_loss: 0.1418 - val_precision: 0.9630 - val_recall: 0.9076 - learning_rate: 3.0000e-04
+Epoch 55/250
+
+Epoch 55: val_auc_pr did not improve from 0.98944
+255/255 - 26s - 103ms/step - accuracy: 0.9326 - auc_pr: 0.9812 - loss: 0.2014 - precision: 0.9077 - recall: 0.9495 - val_accuracy: 0.9403 - val_auc_pr: 0.9881 - val_loss: 0.1408 - val_precision: 0.9541 - val_recall: 0.9136 - learning_rate: 3.0000e-04
+Epoch 56/250
+
+Epoch 56: val_auc_pr did not improve from 0.98944
+255/255 - 26s - 102ms/step - accuracy: 0.9333 - auc_pr: 0.9823 - loss: 0.1973 - precision: 0.9108 - recall: 0.9473 - val_accuracy: 0.9361 - val_auc_pr: 0.9883 - val_loss: 0.1438 - val_precision: 0.9128 - val_recall: 0.9515 - learning_rate: 3.0000e-04
+Epoch 57/250
+
+Epoch 57: val_auc_pr improved from 0.98944 to 0.99002, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 33s - 130ms/step - accuracy: 0.9352 - auc_pr: 0.9834 - loss: 0.1930 - precision: 0.9128 - recall: 0.9492 - val_accuracy: 0.9403 - val_auc_pr: 0.9900 - val_loss: 0.1406 - val_precision: 0.9614 - val_recall: 0.9061 - learning_rate: 3.0000e-04
+Epoch 58/250
+
+Epoch 58: val_auc_pr improved from 0.99002 to 0.99037, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 32s - 124ms/step - accuracy: 0.9387 - auc_pr: 0.9837 - loss: 0.1844 - precision: 0.9175 - recall: 0.9519 - val_accuracy: 0.9368 - val_auc_pr: 0.9904 - val_loss: 0.1577 - val_precision: 0.9880 - val_recall: 0.8727 - learning_rate: 3.0000e-04
+Epoch 59/250
+
+Epoch 59: val_auc_pr did not improve from 0.99037
+255/255 - 28s - 108ms/step - accuracy: 0.9342 - auc_pr: 0.9831 - loss: 0.1909 - precision: 0.9097 - recall: 0.9508 - val_accuracy: 0.9306 - val_auc_pr: 0.9899 - val_loss: 0.1449 - val_precision: 0.8922 - val_recall: 0.9652 - learning_rate: 3.0000e-04
+Epoch 60/250
+
+Epoch 60: val_auc_pr improved from 0.99037 to 0.99062, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 39s - 152ms/step - accuracy: 0.9404 - auc_pr: 0.9848 - loss: 0.1804 - precision: 0.9202 - recall: 0.9527 - val_accuracy: 0.9368 - val_auc_pr: 0.9906 - val_loss: 0.1321 - val_precision: 0.9094 - val_recall: 0.9576 - learning_rate: 3.0000e-04
+Epoch 61/250
+
+Epoch 61: val_auc_pr did not improve from 0.99062
+255/255 - 32s - 124ms/step - accuracy: 0.9355 - auc_pr: 0.9832 - loss: 0.1926 - precision: 0.9129 - recall: 0.9500 - val_accuracy: 0.9431 - val_auc_pr: 0.9899 - val_loss: 0.1359 - val_precision: 0.9587 - val_recall: 0.9152 - learning_rate: 3.0000e-04
+Epoch 62/250
+
+Epoch 62: val_auc_pr did not improve from 0.99062
+255/255 - 39s - 151ms/step - accuracy: 0.9374 - auc_pr: 0.9834 - loss: 0.1877 - precision: 0.9132 - recall: 0.9540 - val_accuracy: 0.9444 - val_auc_pr: 0.9905 - val_loss: 0.1244 - val_precision: 0.9489 - val_recall: 0.9288 - learning_rate: 3.0000e-04
+Epoch 63/250
+
+Epoch 63: val_auc_pr improved from 0.99062 to 0.99156, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 33s - 128ms/step - accuracy: 0.9425 - auc_pr: 0.9861 - loss: 0.1724 - precision: 0.9221 - recall: 0.9553 - val_accuracy: 0.9444 - val_auc_pr: 0.9916 - val_loss: 0.1166 - val_precision: 0.9407 - val_recall: 0.9379 - learning_rate: 3.0000e-04
+Epoch 64/250
+
+Epoch 64: val_auc_pr did not improve from 0.99156
+255/255 - 28s - 112ms/step - accuracy: 0.9450 - auc_pr: 0.9858 - loss: 0.1712 - precision: 0.9244 - recall: 0.9583 - val_accuracy: 0.9382 - val_auc_pr: 0.9900 - val_loss: 0.1306 - val_precision: 0.9539 - val_recall: 0.9091 - learning_rate: 3.0000e-04
+Epoch 65/250
+
+Epoch 65: val_auc_pr improved from 0.99156 to 0.99191, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 106ms/step - accuracy: 0.9433 - auc_pr: 0.9863 - loss: 0.1710 - precision: 0.9242 - recall: 0.9545 - val_accuracy: 0.9458 - val_auc_pr: 0.9919 - val_loss: 0.1514 - val_precision: 0.9966 - val_recall: 0.8848 - learning_rate: 3.0000e-04
+Epoch 66/250
+
+Epoch 66: val_auc_pr did not improve from 0.99191
+255/255 - 27s - 106ms/step - accuracy: 0.9457 - auc_pr: 0.9872 - loss: 0.1658 - precision: 0.9252 - recall: 0.9591 - val_accuracy: 0.9271 - val_auc_pr: 0.9913 - val_loss: 0.1484 - val_precision: 0.8817 - val_recall: 0.9712 - learning_rate: 3.0000e-04
+Epoch 67/250
+
+Epoch 67: val_auc_pr did not improve from 0.99191
+255/255 - 28s - 109ms/step - accuracy: 0.9415 - auc_pr: 0.9855 - loss: 0.1754 - precision: 0.9202 - recall: 0.9553 - val_accuracy: 0.9306 - val_auc_pr: 0.9912 - val_loss: 0.1481 - val_precision: 0.8867 - val_recall: 0.9727 - learning_rate: 3.0000e-04
+Epoch 68/250
+
+Epoch 68: val_auc_pr improved from 0.99191 to 0.99266, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 110ms/step - accuracy: 0.9420 - auc_pr: 0.9850 - loss: 0.1747 - precision: 0.9222 - recall: 0.9540 - val_accuracy: 0.9500 - val_auc_pr: 0.9927 - val_loss: 0.1114 - val_precision: 0.9362 - val_recall: 0.9561 - learning_rate: 3.0000e-04
+Epoch 69/250
+
+Epoch 69: val_auc_pr did not improve from 0.99266
+255/255 - 28s - 108ms/step - accuracy: 0.9452 - auc_pr: 0.9858 - loss: 0.1707 - precision: 0.9258 - recall: 0.9572 - val_accuracy: 0.9354 - val_auc_pr: 0.9914 - val_loss: 0.1563 - val_precision: 0.8889 - val_recall: 0.9818 - learning_rate: 3.0000e-04
+Epoch 70/250
+
+Epoch 70: val_auc_pr did not improve from 0.99266
+255/255 - 28s - 111ms/step - accuracy: 0.9469 - auc_pr: 0.9876 - loss: 0.1620 - precision: 0.9263 - recall: 0.9607 - val_accuracy: 0.9444 - val_auc_pr: 0.9920 - val_loss: 0.1190 - val_precision: 0.9240 - val_recall: 0.9576 - learning_rate: 3.0000e-04
+Epoch 71/250
+
+Epoch 71: val_auc_pr did not improve from 0.99266
+255/255 - 25s - 98ms/step - accuracy: 0.9466 - auc_pr: 0.9867 - loss: 0.1625 - precision: 0.9286 - recall: 0.9570 - val_accuracy: 0.9493 - val_auc_pr: 0.9913 - val_loss: 0.1183 - val_precision: 0.9579 - val_recall: 0.9303 - learning_rate: 3.0000e-04
+Epoch 72/250
+
+Epoch 72: val_auc_pr did not improve from 0.99266
+255/255 - 25s - 100ms/step - accuracy: 0.9434 - auc_pr: 0.9868 - loss: 0.1681 - precision: 0.9222 - recall: 0.9572 - val_accuracy: 0.9479 - val_auc_pr: 0.9911 - val_loss: 0.1187 - val_precision: 0.9398 - val_recall: 0.9470 - learning_rate: 3.0000e-04
+Epoch 73/250
+
+Epoch 73: val_auc_pr did not improve from 0.99266
+255/255 - 25s - 99ms/step - accuracy: 0.9529 - auc_pr: 0.9894 - loss: 0.1485 - precision: 0.9365 - recall: 0.9626 - val_accuracy: 0.9347 - val_auc_pr: 0.9909 - val_loss: 0.1514 - val_precision: 0.8909 - val_recall: 0.9773 - learning_rate: 3.0000e-04
+Epoch 74/250
+
+Epoch 74: val_auc_pr did not improve from 0.99266
+255/255 - 27s - 104ms/step - accuracy: 0.9491 - auc_pr: 0.9881 - loss: 0.1573 - precision: 0.9317 - recall: 0.9594 - val_accuracy: 0.9208 - val_auc_pr: 0.9921 - val_loss: 0.1975 - val_precision: 0.8545 - val_recall: 0.9970 - learning_rate: 3.0000e-04
+Epoch 75/250
+
+Epoch 75: val_auc_pr improved from 0.99266 to 0.99276, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 47s - 185ms/step - accuracy: 0.9462 - auc_pr: 0.9859 - loss: 0.1665 - precision: 0.9248 - recall: 0.9607 - val_accuracy: 0.9507 - val_auc_pr: 0.9928 - val_loss: 0.1172 - val_precision: 0.9742 - val_recall: 0.9167 - learning_rate: 3.0000e-04
+Epoch 76/250
+
+Epoch 76: val_auc_pr did not improve from 0.99276
+255/255 - 39s - 152ms/step - accuracy: 0.9494 - auc_pr: 0.9873 - loss: 0.1572 - precision: 0.9324 - recall: 0.9591 - val_accuracy: 0.9194 - val_auc_pr: 0.9888 - val_loss: 0.1971 - val_precision: 0.8598 - val_recall: 0.9848 - learning_rate: 3.0000e-04
+Epoch 77/250
+
+Epoch 77: val_auc_pr did not improve from 0.99276
+255/255 - 38s - 149ms/step - accuracy: 0.9545 - auc_pr: 0.9903 - loss: 0.1430 - precision: 0.9372 - recall: 0.9655 - val_accuracy: 0.9424 - val_auc_pr: 0.9918 - val_loss: 0.1240 - val_precision: 0.9151 - val_recall: 0.9636 - learning_rate: 3.0000e-04
+Epoch 78/250
+
+Epoch 78: val_auc_pr did not improve from 0.99276
+255/255 - 30s - 120ms/step - accuracy: 0.9563 - auc_pr: 0.9904 - loss: 0.1423 - precision: 0.9404 - recall: 0.9658 - val_accuracy: 0.9486 - val_auc_pr: 0.9916 - val_loss: 0.1199 - val_precision: 0.9636 - val_recall: 0.9227 - learning_rate: 3.0000e-04
+Epoch 79/250
+
+Epoch 79: val_auc_pr improved from 0.99276 to 0.99415, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 115ms/step - accuracy: 0.9578 - auc_pr: 0.9910 - loss: 0.1364 - precision: 0.9429 - recall: 0.9666 - val_accuracy: 0.9556 - val_auc_pr: 0.9942 - val_loss: 0.0979 - val_precision: 0.9408 - val_recall: 0.9636 - learning_rate: 3.0000e-04
+Epoch 80/250
+
+Epoch 80: val_auc_pr did not improve from 0.99415
+255/255 - 28s - 111ms/step - accuracy: 0.9539 - auc_pr: 0.9905 - loss: 0.1400 - precision: 0.9367 - recall: 0.9647 - val_accuracy: 0.9375 - val_auc_pr: 0.9920 - val_loss: 0.1517 - val_precision: 0.9831 - val_recall: 0.8788 - learning_rate: 3.0000e-04
+Epoch 81/250
+
+Epoch 81: val_auc_pr did not improve from 0.99415
+255/255 - 28s - 112ms/step - accuracy: 0.9496 - auc_pr: 0.9886 - loss: 0.1551 - precision: 0.9318 - recall: 0.9604 - val_accuracy: 0.9542 - val_auc_pr: 0.9937 - val_loss: 0.1004 - val_precision: 0.9446 - val_recall: 0.9561 - learning_rate: 3.0000e-04
+Epoch 82/250
+
+Epoch 82: val_auc_pr improved from 0.99415 to 0.99443, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 105ms/step - accuracy: 0.9565 - auc_pr: 0.9912 - loss: 0.1358 - precision: 0.9406 - recall: 0.9660 - val_accuracy: 0.9576 - val_auc_pr: 0.9944 - val_loss: 0.0951 - val_precision: 0.9504 - val_recall: 0.9576 - learning_rate: 3.0000e-04
+Epoch 83/250
+
+Epoch 83: val_auc_pr did not improve from 0.99443
+255/255 - 28s - 108ms/step - accuracy: 0.9558 - auc_pr: 0.9920 - loss: 0.1344 - precision: 0.9408 - recall: 0.9642 - val_accuracy: 0.9590 - val_auc_pr: 0.9933 - val_loss: 0.1020 - val_precision: 0.9532 - val_recall: 0.9576 - learning_rate: 3.0000e-04
+Epoch 84/250
+
+Epoch 84: val_auc_pr did not improve from 0.99443
+255/255 - 27s - 106ms/step - accuracy: 0.9543 - auc_pr: 0.9896 - loss: 0.1448 - precision: 0.9374 - recall: 0.9647 - val_accuracy: 0.9521 - val_auc_pr: 0.9941 - val_loss: 0.1036 - val_precision: 0.9327 - val_recall: 0.9652 - learning_rate: 3.0000e-04
+Epoch 85/250
+
+Epoch 85: val_auc_pr did not improve from 0.99443
+255/255 - 27s - 105ms/step - accuracy: 0.9582 - auc_pr: 0.9908 - loss: 0.1369 - precision: 0.9429 - recall: 0.9674 - val_accuracy: 0.9424 - val_auc_pr: 0.9932 - val_loss: 0.1516 - val_precision: 0.9949 - val_recall: 0.8788 - learning_rate: 3.0000e-04
+Epoch 86/250
+
+Epoch 86: val_auc_pr did not improve from 0.99443
+255/255 - 24s - 94ms/step - accuracy: 0.9621 - auc_pr: 0.9933 - loss: 0.1231 - precision: 0.9478 - recall: 0.9709 - val_accuracy: 0.9597 - val_auc_pr: 0.9940 - val_loss: 0.0995 - val_precision: 0.9718 - val_recall: 0.9394 - learning_rate: 3.0000e-04
+Epoch 87/250
+
+Epoch 87: val_auc_pr did not improve from 0.99443
+255/255 - 28s - 108ms/step - accuracy: 0.9585 - auc_pr: 0.9917 - loss: 0.1289 - precision: 0.9411 - recall: 0.9701 - val_accuracy: 0.9590 - val_auc_pr: 0.9941 - val_loss: 0.0984 - val_precision: 0.9387 - val_recall: 0.9742 - learning_rate: 3.0000e-04
+Epoch 88/250
+
+Epoch 88: val_auc_pr did not improve from 0.99443
+255/255 - 25s - 97ms/step - accuracy: 0.9596 - auc_pr: 0.9918 - loss: 0.1298 - precision: 0.9449 - recall: 0.9682 - val_accuracy: 0.9479 - val_auc_pr: 0.9926 - val_loss: 0.1231 - val_precision: 0.9803 - val_recall: 0.9045 - learning_rate: 3.0000e-04
+Epoch 89/250
+
+Epoch 89: val_auc_pr improved from 0.99443 to 0.99492, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 25s - 98ms/step - accuracy: 0.9623 - auc_pr: 0.9925 - loss: 0.1236 - precision: 0.9494 - recall: 0.9693 - val_accuracy: 0.9618 - val_auc_pr: 0.9949 - val_loss: 0.0900 - val_precision: 0.9632 - val_recall: 0.9530 - learning_rate: 3.0000e-04
+Epoch 90/250
+
+Epoch 90: val_auc_pr did not improve from 0.99492
+255/255 - 27s - 106ms/step - accuracy: 0.9580 - auc_pr: 0.9925 - loss: 0.1284 - precision: 0.9431 - recall: 0.9666 - val_accuracy: 0.9535 - val_auc_pr: 0.9945 - val_loss: 0.1101 - val_precision: 0.9242 - val_recall: 0.9788 - learning_rate: 3.0000e-04
+Epoch 91/250
+
+Epoch 91: val_auc_pr did not improve from 0.99492
+255/255 - 25s - 97ms/step - accuracy: 0.9576 - auc_pr: 0.9922 - loss: 0.1277 - precision: 0.9426 - recall: 0.9663 - val_accuracy: 0.9167 - val_auc_pr: 0.9930 - val_loss: 0.1976 - val_precision: 0.8525 - val_recall: 0.9894 - learning_rate: 3.0000e-04
+Epoch 92/250
+
+Epoch 92: val_auc_pr did not improve from 0.99492
+255/255 - 30s - 116ms/step - accuracy: 0.9600 - auc_pr: 0.9910 - loss: 0.1278 - precision: 0.9450 - recall: 0.9693 - val_accuracy: 0.9521 - val_auc_pr: 0.9941 - val_loss: 0.1045 - val_precision: 0.9314 - val_recall: 0.9667 - learning_rate: 3.0000e-04
+Epoch 93/250
+
+Epoch 93: val_auc_pr did not improve from 0.99492
+255/255 - 25s - 97ms/step - accuracy: 0.9620 - auc_pr: 0.9925 - loss: 0.1217 - precision: 0.9480 - recall: 0.9703 - val_accuracy: 0.9465 - val_auc_pr: 0.9943 - val_loss: 0.1197 - val_precision: 0.9077 - val_recall: 0.9833 - learning_rate: 3.0000e-04
+Epoch 94/250
+
+Epoch 94: val_auc_pr did not improve from 0.99492
+255/255 - 23s - 91ms/step - accuracy: 0.9637 - auc_pr: 0.9931 - loss: 0.1160 - precision: 0.9491 - recall: 0.9730 - val_accuracy: 0.9076 - val_auc_pr: 0.9912 - val_loss: 0.2215 - val_precision: 0.8340 - val_recall: 0.9970 - learning_rate: 3.0000e-04
+Epoch 95/250
+
+Epoch 95: val_auc_pr did not improve from 0.99492
+255/255 - 28s - 110ms/step - accuracy: 0.9599 - auc_pr: 0.9926 - loss: 0.1284 - precision: 0.9436 - recall: 0.9706 - val_accuracy: 0.9576 - val_auc_pr: 0.9931 - val_loss: 0.1034 - val_precision: 0.9672 - val_recall: 0.9394 - learning_rate: 3.0000e-04
+Epoch 96/250
+
+Epoch 96: val_auc_pr improved from 0.99492 to 0.99579, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 113ms/step - accuracy: 0.9652 - auc_pr: 0.9938 - loss: 0.1106 - precision: 0.9528 - recall: 0.9722 - val_accuracy: 0.9611 - val_auc_pr: 0.9958 - val_loss: 0.0975 - val_precision: 0.9903 - val_recall: 0.9242 - learning_rate: 3.0000e-04
+Epoch 97/250
+
+Epoch 97: val_auc_pr did not improve from 0.99579
+255/255 - 29s - 113ms/step - accuracy: 0.9665 - auc_pr: 0.9939 - loss: 0.1099 - precision: 0.9542 - recall: 0.9738 - val_accuracy: 0.9514 - val_auc_pr: 0.9940 - val_loss: 0.1059 - val_precision: 0.9313 - val_recall: 0.9652 - learning_rate: 3.0000e-04
+Epoch 98/250
+
+Epoch 98: val_auc_pr did not improve from 0.99579
+255/255 - 30s - 116ms/step - accuracy: 0.9640 - auc_pr: 0.9938 - loss: 0.1149 - precision: 0.9510 - recall: 0.9714 - val_accuracy: 0.9472 - val_auc_pr: 0.9939 - val_loss: 0.1076 - val_precision: 0.9220 - val_recall: 0.9667 - learning_rate: 3.0000e-04
+Epoch 99/250
+
+Epoch 99: val_auc_pr did not improve from 0.99579
+255/255 - 29s - 114ms/step - accuracy: 0.9681 - auc_pr: 0.9946 - loss: 0.1051 - precision: 0.9555 - recall: 0.9759 - val_accuracy: 0.9618 - val_auc_pr: 0.9952 - val_loss: 0.0862 - val_precision: 0.9535 - val_recall: 0.9636 - learning_rate: 3.0000e-04
+Epoch 100/250
+
+Epoch 100: val_auc_pr improved from 0.99579 to 0.99596, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 27s - 108ms/step - accuracy: 0.9678 - auc_pr: 0.9936 - loss: 0.1069 - precision: 0.9576 - recall: 0.9727 - val_accuracy: 0.9694 - val_auc_pr: 0.9960 - val_loss: 0.0794 - val_precision: 0.9724 - val_recall: 0.9606 - learning_rate: 3.0000e-04
+Epoch 101/250
+
+Epoch 101: val_auc_pr improved from 0.99596 to 0.99622, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 31s - 120ms/step - accuracy: 0.9681 - auc_pr: 0.9942 - loss: 0.1045 - precision: 0.9567 - recall: 0.9746 - val_accuracy: 0.9660 - val_auc_pr: 0.9962 - val_loss: 0.0774 - val_precision: 0.9636 - val_recall: 0.9621 - learning_rate: 3.0000e-04
+Epoch 102/250
+
+Epoch 102: val_auc_pr did not improve from 0.99622
+255/255 - 29s - 113ms/step - accuracy: 0.9668 - auc_pr: 0.9942 - loss: 0.1083 - precision: 0.9563 - recall: 0.9719 - val_accuracy: 0.9604 - val_auc_pr: 0.9953 - val_loss: 0.0927 - val_precision: 0.9376 - val_recall: 0.9788 - learning_rate: 3.0000e-04
+Epoch 103/250
+
+Epoch 103: val_auc_pr did not improve from 0.99622
+255/255 - 29s - 114ms/step - accuracy: 0.9678 - auc_pr: 0.9947 - loss: 0.1042 - precision: 0.9555 - recall: 0.9751 - val_accuracy: 0.9181 - val_auc_pr: 0.9912 - val_loss: 0.1947 - val_precision: 0.8538 - val_recall: 0.9909 - learning_rate: 3.0000e-04
+Epoch 104/250
+
+Epoch 104: val_auc_pr did not improve from 0.99622
+255/255 - 29s - 113ms/step - accuracy: 0.9684 - auc_pr: 0.9946 - loss: 0.1045 - precision: 0.9570 - recall: 0.9749 - val_accuracy: 0.9653 - val_auc_pr: 0.9951 - val_loss: 0.0864 - val_precision: 0.9781 - val_recall: 0.9455 - learning_rate: 3.0000e-04
+Epoch 105/250
+
+Epoch 105: val_auc_pr did not improve from 0.99622
+255/255 - 27s - 106ms/step - accuracy: 0.9673 - auc_pr: 0.9941 - loss: 0.1085 - precision: 0.9554 - recall: 0.9741 - val_accuracy: 0.9507 - val_auc_pr: 0.9956 - val_loss: 0.1057 - val_precision: 0.9154 - val_recall: 0.9833 - learning_rate: 3.0000e-04
+Epoch 106/250
+
+Epoch 106: val_auc_pr did not improve from 0.99622
+255/255 - 27s - 108ms/step - accuracy: 0.9716 - auc_pr: 0.9956 - loss: 0.0940 - precision: 0.9596 - recall: 0.9791 - val_accuracy: 0.9611 - val_auc_pr: 0.9959 - val_loss: 0.0907 - val_precision: 0.9415 - val_recall: 0.9758 - learning_rate: 3.0000e-04
+Epoch 107/250
+
+Epoch 107: val_auc_pr did not improve from 0.99622
+255/255 - 27s - 107ms/step - accuracy: 0.9656 - auc_pr: 0.9950 - loss: 0.1054 - precision: 0.9545 - recall: 0.9711 - val_accuracy: 0.9465 - val_auc_pr: 0.9935 - val_loss: 0.1233 - val_precision: 0.9135 - val_recall: 0.9758 - learning_rate: 3.0000e-04
+Epoch 108/250
+
+Epoch 108: val_auc_pr did not improve from 0.99622
+255/255 - 29s - 114ms/step - accuracy: 0.9695 - auc_pr: 0.9955 - loss: 0.0973 - precision: 0.9585 - recall: 0.9757 - val_accuracy: 0.9667 - val_auc_pr: 0.9959 - val_loss: 0.0780 - val_precision: 0.9708 - val_recall: 0.9561 - learning_rate: 3.0000e-04
+Epoch 109/250
+
+Epoch 109: val_auc_pr did not improve from 0.99622
+255/255 - 30s - 117ms/step - accuracy: 0.9702 - auc_pr: 0.9951 - loss: 0.0985 - precision: 0.9598 - recall: 0.9759 - val_accuracy: 0.9674 - val_auc_pr: 0.9956 - val_loss: 0.0911 - val_precision: 0.9920 - val_recall: 0.9364 - learning_rate: 3.0000e-04
+Epoch 110/250
+
+Epoch 110: val_auc_pr did not improve from 0.99622
+255/255 - 31s - 121ms/step - accuracy: 0.9658 - auc_pr: 0.9941 - loss: 0.1018 - precision: 0.9522 - recall: 0.9743 - val_accuracy: 0.9361 - val_auc_pr: 0.9903 - val_loss: 0.1391 - val_precision: 0.8923 - val_recall: 0.9788 - learning_rate: 3.0000e-04
+Epoch 111/250
+
+Epoch 111: val_auc_pr did not improve from 0.99622
+255/255 - 28s - 109ms/step - accuracy: 0.9706 - auc_pr: 0.9952 - loss: 0.0951 - precision: 0.9596 - recall: 0.9770 - val_accuracy: 0.9625 - val_auc_pr: 0.9955 - val_loss: 0.0814 - val_precision: 0.9605 - val_recall: 0.9576 - learning_rate: 3.0000e-04
+Epoch 112/250
+
+Epoch 112: val_auc_pr did not improve from 0.99622
+255/255 - 28s - 110ms/step - accuracy: 0.9661 - auc_pr: 0.9941 - loss: 0.1051 - precision: 0.9536 - recall: 0.9733 - val_accuracy: 0.9611 - val_auc_pr: 0.9956 - val_loss: 0.0911 - val_precision: 0.9428 - val_recall: 0.9742 - learning_rate: 3.0000e-04
+Epoch 113/250
+
+Epoch 113: val_auc_pr did not improve from 0.99622
+
+Epoch 113: ReduceLROnPlateau reducing learning rate to 0.0001500000071246177.
+255/255 - 27s - 108ms/step - accuracy: 0.9727 - auc_pr: 0.9960 - loss: 0.0887 - precision: 0.9617 - recall: 0.9794 - val_accuracy: 0.9625 - val_auc_pr: 0.9955 - val_loss: 0.0894 - val_precision: 0.9443 - val_recall: 0.9758 - learning_rate: 3.0000e-04
+Epoch 114/250
+
+Epoch 114: val_auc_pr improved from 0.99622 to 0.99686, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 116ms/step - accuracy: 0.9790 - auc_pr: 0.9973 - loss: 0.0758 - precision: 0.9715 - recall: 0.9832 - val_accuracy: 0.9736 - val_auc_pr: 0.9969 - val_loss: 0.0690 - val_precision: 0.9785 - val_recall: 0.9636 - learning_rate: 1.5000e-04
+Epoch 115/250
+
+Epoch 115: val_auc_pr did not improve from 0.99686
+255/255 - 28s - 109ms/step - accuracy: 0.9799 - auc_pr: 0.9974 - loss: 0.0736 - precision: 0.9730 - recall: 0.9834 - val_accuracy: 0.9681 - val_auc_pr: 0.9964 - val_loss: 0.0738 - val_precision: 0.9596 - val_recall: 0.9712 - learning_rate: 1.5000e-04
+Epoch 116/250
+
+Epoch 116: val_auc_pr did not improve from 0.99686
+255/255 - 30s - 119ms/step - accuracy: 0.9787 - auc_pr: 0.9974 - loss: 0.0743 - precision: 0.9707 - recall: 0.9832 - val_accuracy: 0.9576 - val_auc_pr: 0.9960 - val_loss: 0.0912 - val_precision: 0.9347 - val_recall: 0.9758 - learning_rate: 1.5000e-04
+Epoch 117/250
+
+Epoch 117: val_auc_pr improved from 0.99686 to 0.99691, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 28s - 110ms/step - accuracy: 0.9808 - auc_pr: 0.9976 - loss: 0.0711 - precision: 0.9741 - recall: 0.9842 - val_accuracy: 0.9722 - val_auc_pr: 0.9969 - val_loss: 0.0692 - val_precision: 0.9627 - val_recall: 0.9773 - learning_rate: 1.5000e-04
+Epoch 118/250
+
+Epoch 118: val_auc_pr did not improve from 0.99691
+255/255 - 28s - 111ms/step - accuracy: 0.9779 - auc_pr: 0.9965 - loss: 0.0785 - precision: 0.9716 - recall: 0.9805 - val_accuracy: 0.9708 - val_auc_pr: 0.9962 - val_loss: 0.0743 - val_precision: 0.9769 - val_recall: 0.9591 - learning_rate: 1.5000e-04
+Epoch 119/250
+
+Epoch 119: val_auc_pr did not improve from 0.99691
+255/255 - 27s - 107ms/step - accuracy: 0.9811 - auc_pr: 0.9976 - loss: 0.0713 - precision: 0.9738 - recall: 0.9853 - val_accuracy: 0.9597 - val_auc_pr: 0.9965 - val_loss: 0.0857 - val_precision: 0.9337 - val_recall: 0.9818 - learning_rate: 1.5000e-04
+Epoch 120/250
+
+Epoch 120: val_auc_pr did not improve from 0.99691
+255/255 - 27s - 107ms/step - accuracy: 0.9776 - auc_pr: 0.9968 - loss: 0.0749 - precision: 0.9684 - recall: 0.9832 - val_accuracy: 0.9465 - val_auc_pr: 0.9963 - val_loss: 0.1150 - val_precision: 0.9043 - val_recall: 0.9879 - learning_rate: 1.5000e-04
+Epoch 121/250
+
+Epoch 121: val_auc_pr did not improve from 0.99691
+255/255 - 28s - 109ms/step - accuracy: 0.9795 - auc_pr: 0.9966 - loss: 0.0764 - precision: 0.9730 - recall: 0.9826 - val_accuracy: 0.9708 - val_auc_pr: 0.9968 - val_loss: 0.0711 - val_precision: 0.9571 - val_recall: 0.9803 - learning_rate: 1.5000e-04
+Epoch 122/250
+
+Epoch 122: val_auc_pr did not improve from 0.99691
+255/255 - 30s - 120ms/step - accuracy: 0.9794 - auc_pr: 0.9976 - loss: 0.0709 - precision: 0.9725 - recall: 0.9829 - val_accuracy: 0.9576 - val_auc_pr: 0.9968 - val_loss: 0.0941 - val_precision: 0.9260 - val_recall: 0.9864 - learning_rate: 1.5000e-04
+Epoch 123/250
+
+Epoch 123: val_auc_pr did not improve from 0.99691
+255/255 - 32s - 125ms/step - accuracy: 0.9784 - auc_pr: 0.9973 - loss: 0.0722 - precision: 0.9704 - recall: 0.9829 - val_accuracy: 0.9681 - val_auc_pr: 0.9962 - val_loss: 0.0746 - val_precision: 0.9610 - val_recall: 0.9697 - learning_rate: 1.5000e-04
+Epoch 124/250
+
+Epoch 124: val_auc_pr did not improve from 0.99691
+255/255 - 31s - 121ms/step - accuracy: 0.9789 - auc_pr: 0.9966 - loss: 0.0725 - precision: 0.9712 - recall: 0.9832 - val_accuracy: 0.9694 - val_auc_pr: 0.9967 - val_loss: 0.0806 - val_precision: 0.9889 - val_recall: 0.9439 - learning_rate: 1.5000e-04
+Epoch 125/250
+
+Epoch 125: val_auc_pr did not improve from 0.99691
+255/255 - 31s - 121ms/step - accuracy: 0.9789 - auc_pr: 0.9968 - loss: 0.0746 - precision: 0.9722 - recall: 0.9821 - val_accuracy: 0.9549 - val_auc_pr: 0.9939 - val_loss: 0.0943 - val_precision: 0.9330 - val_recall: 0.9712 - learning_rate: 1.5000e-04
+Epoch 126/250
+
+Epoch 126: val_auc_pr improved from 0.99691 to 0.99711, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+
+Epoch 126: ReduceLROnPlateau reducing learning rate to 7.500000356230885e-05.
+255/255 - 30s - 118ms/step - accuracy: 0.9771 - auc_pr: 0.9969 - loss: 0.0800 - precision: 0.9671 - recall: 0.9834 - val_accuracy: 0.9646 - val_auc_pr: 0.9971 - val_loss: 0.0781 - val_precision: 0.9407 - val_recall: 0.9848 - learning_rate: 1.5000e-04
+Epoch 127/250
+
+Epoch 127: val_auc_pr did not improve from 0.99711
+255/255 - 27s - 107ms/step - accuracy: 0.9839 - auc_pr: 0.9982 - loss: 0.0610 - precision: 0.9773 - recall: 0.9880 - val_accuracy: 0.9722 - val_auc_pr: 0.9970 - val_loss: 0.0658 - val_precision: 0.9669 - val_recall: 0.9727 - learning_rate: 7.5000e-05
+Epoch 128/250
+
+Epoch 128: val_auc_pr did not improve from 0.99711
+255/255 - 29s - 114ms/step - accuracy: 0.9844 - auc_pr: 0.9982 - loss: 0.0606 - precision: 0.9775 - recall: 0.9888 - val_accuracy: 0.9681 - val_auc_pr: 0.9971 - val_loss: 0.0675 - val_precision: 0.9568 - val_recall: 0.9742 - learning_rate: 7.5000e-05
+Epoch 129/250
+
+Epoch 129: val_auc_pr improved from 0.99711 to 0.99754, saving model to /Users/theepireddykarthikreddy/Desktop/SILICON/silicon-23/best_model.keras
+255/255 - 29s - 112ms/step - accuracy: 0.9833 - auc_pr: 0.9978 - loss: 0.0626 - precision: 0.9767 - recall: 0.9872 - val_accuracy: 0.9743 - val_auc_pr: 0.9975 - val_loss: 0.0660 - val_precision: 0.9890 - val_recall: 0.9545 - learning_rate: 7.5000e-05
+Epoch 130/250
+
+Epoch 130: val_auc_pr did not improve from 0.99754
+255/255 - 68s - 266ms/step - accuracy: 0.9841 - auc_pr: 0.9980 - loss: 0.0610 - precision: 0.9790 - recall: 0.9864 - val_accuracy: 0.9771 - val_auc_pr: 0.9973 - val_loss: 0.0628 - val_precision: 0.9757 - val_recall: 0.9742 - learning_rate: 7.5000e-05
+Epoch 131/250
+
+Epoch 131: val_auc_pr did not improve from 0.99754
+255/255 - 97s - 381ms/step - accuracy: 0.9842 - auc_pr: 0.9980 - loss: 0.0597 - precision: 0.9783 - recall: 0.9874 - val_accuracy: 0.9674 - val_auc_pr: 0.9969 - val_loss: 0.0699 - val_precision: 0.9514 - val_recall: 0.9788 - learning_rate: 7.5000e-05
+Epoch 132/250
+
+Epoch 132: val_auc_pr did not improve from 0.99754
+255/255 - 90s - 354ms/step - accuracy: 0.9855 - auc_pr: 0.9984 - loss: 0.0584 - precision: 0.9811 - recall: 0.9874 - val_accuracy: 0.9660 - val_auc_pr: 0.9971 - val_loss: 0.0763 - val_precision: 0.9434 - val_recall: 0.9848 - learning_rate: 7.5000e-05
+Epoch 133/250
+
+Epoch 133: val_auc_pr did not improve from 0.99754
+255/255 - 100s - 392ms/step - accuracy: 0.9839 - auc_pr: 0.9983 - loss: 0.0589 - precision: 0.9770 - recall: 0.9882 - val_accuracy: 0.9736 - val_auc_pr: 0.9971 - val_loss: 0.0648 - val_precision: 0.9698 - val_recall: 0.9727 - learning_rate: 7.5000e-05
+Epoch 134/250
+
+Epoch 134: val_auc_pr did not improve from 0.99754
+255/255 - 93s - 366ms/step - accuracy: 0.9841 - auc_pr: 0.9980 - loss: 0.0599 - precision: 0.9790 - recall: 0.9864 - val_accuracy: 0.9597 - val_auc_pr: 0.9949 - val_loss: 0.0903 - val_precision: 0.9325 - val_recall: 0.9833 - learning_rate: 7.5000e-05
+Epoch 135/250
+
+Epoch 135: val_auc_pr did not improve from 0.99754
