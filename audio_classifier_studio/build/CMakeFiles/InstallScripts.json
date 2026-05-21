@@ -1,0 +1,12 @@
+{
+	"Configs" : 
+	[
+		"base"
+	],
+	"InstallScripts" : 
+	[
+		"/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_install.cmake",
+		"/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_gcc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

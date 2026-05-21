@@ -1,0 +1,6 @@
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/CMakeFiles/edit_cache.dir
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/CMakeFiles/rebuild_cache.dir
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_gcc/CMakeFiles/slc.dir
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_gcc/CMakeFiles/ml_audio_classifier_2.dir
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_gcc/CMakeFiles/edit_cache.dir
+/Users/theepireddykarthikreddy/SimplicityStudio/v6_workspace/ml_audio_classifier_2/build/cmake_gcc/CMakeFiles/rebuild_cache.dir
